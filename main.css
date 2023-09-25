@@ -32,33 +32,43 @@ img {
 
 #sec1 {
     width: 350px;
-    height: 500px;
+    height: 400px;
     float: left;
-    clear: left;
 }
 
 #sec2 {
     width: 530px;
-    height: 150px;
+    height: 100px;
     float: right;
 }
 
 #sec3 {
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
     width: 530px;
-    height: 340px;
+    height: 290px;
     float: right;
 }
 
 #sec4{
-    margin-top: 10px;
     float: left;
     width: 100%;
 }
 
+#sec4{
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
 #sec5{
-    margin: 10px 0 10px 0;
+    float: right;
+    width: 275px;
+    height: 400px;
+}
+
+#sec6{
+    margin: 10px 0 1em 0;
     float: left;
     width: 100%;
-    height: 500px;
+    height: 100px;
 }
