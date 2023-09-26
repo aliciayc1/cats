@@ -3,6 +3,7 @@ body {
     margin: auto;
     width: 900px;
     font-family: sans-serif;
+    background-color: #bfdebf;
 }
 
 h1 {
@@ -11,8 +12,10 @@ h1 {
     margin: 10px;
 }
 
-img {
-    width: 100%;
+#kitty {
+    width: 40%;
+    float: left;
+    margin-right: 1em;
 }
 
 #ate {
@@ -23,50 +26,46 @@ img {
     margin: 5px;
 }
 
+li {
+    line-height: 1.5em;
+}
+
 .container {
     box-sizing: border-box;
     padding: 5px;
     overflow: auto;
     border: 1px solid;
+    background-color: white;
 }
 
 #sec1 {
+    padding: 15px;
     width: 350px;
     height: 400px;
     float: left;
+    text-align: left;
 }
 
 #sec2 {
+    margin-bottom: 10px;
     width: 530px;
-    height: 100px;
+    height: 400px;
     float: right;
 }
 
-#sec3 {
-    margin: 10px 0 10px 0;
-    width: 530px;
-    height: 290px;
-    float: right;
-}
-
-#sec4{
-    float: left;
-    width: 100%;
-}
-
-#sec4{
+#sec3{
     float: left;
     width: 600px;
     height: 400px;
 }
 
-#sec5{
+#sec4{
     float: right;
-    width: 275px;
+    width: 280px;
     height: 400px;
 }
 
-#sec6{
+#sec5{
     margin: 10px 0 1em 0;
     float: left;
     width: 100%;
