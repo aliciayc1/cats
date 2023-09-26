@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Cat Cafe";
+  src: url(media/Catcafe.ttf);
+}
+
 body {
     text-align: center;
     margin: auto;
@@ -7,9 +12,19 @@ body {
 }
 
 h1 {
-    font-family: Cursive;
-    font-size: 4em;
+    font-family: "Cat Cafe", cursive;
+    font-size: 5em;
     margin: 10px;
+    color: #00615a;
+}
+
+h2 {
+    font-size: 2em; 
+}
+
+iframe {
+    width: 75%;
+    height: 70%;
 }
 
 #kitty {
@@ -18,7 +33,7 @@ h1 {
     margin-right: 1em;
 }
 
-#ate {
+#hanzel {
     width: 70%;
 }
 
